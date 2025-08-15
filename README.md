@@ -4,7 +4,7 @@
 
 - Install pandas
 - Install virtualenv using `pip install virtualenv`
-- Run `virtual env (name of the virtual env)` here wscube. A folder named wscube is created.
+- Run `virtual env <virtualenv-name>` here wscube. A folder named wscube is created.
 
 ### Activate/ Deactivate virtualenv
 
@@ -51,5 +51,5 @@ You will have the list of all modules with versions being used in your current p
 ## Creating the clone of the existing installed python in the system.
 
 - Deactivate any other python virtual environment created.
-- Run `py -m virtualenv --sytem-site-packages`.
+- Run `py -m virtualenv --sytem-site-packages <virtualenv-name>`.
 
