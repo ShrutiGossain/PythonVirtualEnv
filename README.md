@@ -2,8 +2,8 @@
 
 ### Requirements
 
-- Installing pandas
-- Installing virtualenv using `pip install virtualenv`
+- Install pandas
+- Install virtualenv using `pip install virtualenv`
 - Run `virtual env (name of the virtual env)` here wscube. A folder named wscube is created.
 
 ### Activate/ Deactivate virtualenv
