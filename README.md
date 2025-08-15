@@ -4,13 +4,13 @@
 
 - Installing pandas
 - Installing virtualenv using `pip install virtualenv`
-- Run `virtual env (name of the virtual env)` here wscube. It will create a folder named wscube.
+- Run `virtual env (name of the virtual env)` here wscube. A folder named wscube is created.
 
 ### Activate/ Deactivate virtualenv
 
 - Navigate to Scripts folder in wscube (using cmd).
-- To activate the virtual environment i.e. wscube, Run `activate`
-- To deactivate the virtual environment i.e. wscube, Run `deactivate`
+- To activate the wscube, Run `activate`
+- To deactivate the wscube, Run `deactivate`
 
 ### How to run main.py in virtual environment
 
@@ -19,7 +19,7 @@
 - Come out of the Script folder using `cd ..` 
 - Come out of the wscube using `cd ..`
 - Now you are in the root directory
-- Run `py main.py` in the terminal. If got a ModuleNotFound error for the pandas, run command `pip install pandas`
+- Run `py main.py` in the terminal. If faced `ModuleNotFound` error for any library, run command `pip install <library>`
 
 ### Generating requirement.txt for the wscube.
 
@@ -50,6 +50,6 @@ You will have the list of all modules with versions being used in your current p
 
 ## Creating the clone of the existing installed python in the system.
 
-- Deactivate any other python virtual env created.
+- Deactivate any other python virtual environment created.
 - Run `py -m virtualenv --sytem-site-packages`.
 
